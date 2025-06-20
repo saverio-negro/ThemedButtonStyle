@@ -2,6 +2,8 @@
 
 ## Description
 
+<img src="./ThemedButtonStyle.gif" width="25%" height="25%"/>
+
 The first component of this series shows how to create a custom button style to reuse for a certain category/role of buttons in your view.
 
 I know, it's quite simple, but we should start this series from somewhere, and I think it's better to work our way up to complexity by beginning with something simple.
