@@ -11,6 +11,11 @@ public struct ThemedButtonStyle: ButtonStyle {
     /// The color of the text or icon inside the button
     public var secondaryColor: Color = .white
     
+    public init(primaryColor: Color, secondaryColor: Color) {
+        self.primaryColor = primaryColor
+        self.secondaryColor = secondaryColor
+    }
+    
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()
