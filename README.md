@@ -24,6 +24,12 @@ I know, it's quite simple, but we should start this series from somewhere, and I
 
 7. Import the framework within your view by typing "import ThemedButtonStyle".
 
+8. Thank you!
+
+## Usage Example
+
+
+
 8. You should now be able to test my component.
 
 9. Thank you!
