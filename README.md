@@ -24,12 +24,29 @@ I know, it's quite simple, but we should start this series from somewhere, and I
 
 7. Import the framework within your view by typing "import ThemedButtonStyle".
 
-8. Thank you!
-
-## Usage Example
-
-
-
 8. You should now be able to test my component.
 
 9. Thank you!
+
+## Usage Example
+
+## Usage Example
+
+The code example using the `ThemedButtonStyle` framework displays the same result as the attached image in this README file:
+
+```swift
+import SwiftUI
+import ThemedButtonStyle
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Button("Tap Me") {
+                print("Pressed")
+            }
+            .buttonStyle(ThemedButtonStyle(primaryColor: .blue, secondaryColor: .white))
+        }
+        .padding()
+    }
+}
+```
